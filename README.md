@@ -16,9 +16,8 @@ The app keeps track of the emoji reactions with live counters for each emoji.
 
 ---
 
-## 🚀 Live Demo
+![Screenshot Description](./Screenshot%202025-04-28%20at%2011.45.38 AM.png)
 
-🔗 **[Live Demo](https://your-live-demo-link.com)**
 
 ---
 
