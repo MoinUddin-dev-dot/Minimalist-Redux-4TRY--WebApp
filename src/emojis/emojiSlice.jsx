@@ -7,23 +7,22 @@ const initialState = {
     "😢": 0,
 }
 
-
-export const emojiSlice = createSlice({
+export const EmojiSlice = createSlice({
     name: "emojis",
     initialState,
     reducers: {
         incrementEmoji: (state, action) => {
-            const emoji = action.payload
-            state[emoji] += 1
+            const emoji = action.payload;
+            state[emoji] += 1;
         },
         resetEmojis: () => ({
             "❤️": 0,
             "😂": 0,
             "🔥": 0,
             "😢": 0,
-          })
+        })
     }
-})
+});
 
-export default emojiSlice.reducer
-export const { incrementEmoji, resetEmojis} = emojiSlice.actions
+export default EmojiSlice.reducer;  
+export const { incrementEmoji, resetEmojis } = EmojiSlice.actions;
